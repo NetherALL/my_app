@@ -1,5 +1,17 @@
 import streamlit as st
 
+st.markdown(
+    """
+    <style>
+    .stApp {
+        background-image: url("https://your-image-url.com/image.jpg");
+        background-size: cover;
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # 챔피언 데이터
 champions = {
     "아리": {
