@@ -22,7 +22,6 @@ st.markdown(
         background-image: url("data:image/jpeg;base64,{encoded_image}");
         background-size: cover;
     }}
-     """
     </style>
     """,
     unsafe_allow_html=True
