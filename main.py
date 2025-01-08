@@ -1,16 +1,36 @@
 import streamlit as st
 
+import base64
+
+# 로컬 이미지 파일을 읽고 Base64로 인코딩하는 함수
+def get_base64_image(file_path):
+    with open(file_path, "rb") as image_file:
+        encoded_string = base64.b64encode(image_file.read()).decode()
+    return encoded_string
+
+# 이미지 파일 경로
+image_file_path = "league of legends.jpg"  # 로컬 이미지 파일 경로
+
+# Base64로 인코딩된 이미지 가져오기
+encoded_image = get_base64_image(image_file_path)
+
+# HTML과 CSS를 사용하여 배경 설정
 st.markdown(
-    """
+    f"""
     <style>
-    .stApp {
-        background-image: url("league of legends.jpg")
-        background-size: cover
-    }
+    .stApp {{
+        background-image: url("data:image/jpeg;base64,{encoded_image}");
+        background-size: cover;
+    }}
     </style>
     """,
     unsafe_allow_html=True
 )
+
+# 앱 내용
+st.title("Streamlit App with Local Background Image")
+st.write("This is an example of a Streamlit app with a custom local background image.")
+
 
 # 챔피언 데이터
 champions = {
