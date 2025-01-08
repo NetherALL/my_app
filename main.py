@@ -23,17 +23,6 @@ st.markdown(
         background-size: cover;
     }}
      """
-    <style>
-    .outlined-text {
-        color: white;  /* 글자색 */
-        text-shadow: 
-            -1px -1px 0 #000,  /* 왼쪽 위 */
-            1px -1px 0 #000,  /* 오른쪽 위 */
-            -1px 1px 0 #000,  /* 왼쪽 아래 */
-            1px 1px 0 #000;  /* 오른쪽 아래 */
-    }
-    </style>
-    """,
     </style>
     """,
     unsafe_allow_html=True
