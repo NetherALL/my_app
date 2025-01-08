@@ -21,6 +21,7 @@ st.markdown(
     .stApp {{
         background-image: url("data:image/jpeg;base64,{encoded_image}");
         background-size: cover;
+        color: white;  /* 전체 글자색 변경 */
     }}
     </style>
     """,
