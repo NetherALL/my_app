@@ -175,7 +175,7 @@ st.title("리그 오브 레전드 챔피언 정보")
 st.image("league of legends.jpg")
 
 # 사용자 입력
-champion_name = st.text_input("챔피언 이름을 입력하세요:")
+champion_name = st.text_input("")
 
 if st.button("챔피언 정보 보기"):
     if champion_name in champions:
