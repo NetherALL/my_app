@@ -160,6 +160,12 @@ champions = {
         "description": "마법의 족쇄를 풀고 복수를 다짐한 반역자.",
         "region": "데마시아",
         
+    },
+    "그웬": {
+        "role": "전사",
+        "description": "생명의 실과 마법 가위를 사용하는 인형사.",
+        "region": "그림자 군도",
+        "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Gwen_0.jpg"
     }
 }
 
