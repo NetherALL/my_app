@@ -7,7 +7,7 @@ st.write('저의 이메일 주소는 24_11111@daejin.sen.hs.kr입니다')
 st.write('대진고등학교 학생이죠')
 st.button("Reset", type="primary")
 if st.button("난수생성"):
-    st.write(random.randint(0,10000000000000000))
+    st.write(random.randint(0,10000))
 else:
     st.write("Goodbye")
 
