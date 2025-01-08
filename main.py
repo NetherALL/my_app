@@ -27,9 +27,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-# 앱 내용
-st.title("Streamlit App with Local Background Image")
-st.write("This is an example of a Streamlit app with a custom local background image.")
+
 
 
 # 챔피언 데이터
