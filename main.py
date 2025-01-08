@@ -4,8 +4,8 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-image: url("league of legends.jpg");
-        background-size: cover;
+        background-image: url("league of legends.jpg")
+        background-size: cover
     }
     </style>
     """,
