@@ -175,7 +175,7 @@ st.title("리그 오브 레전드 챔피언 정보")
 st.image("league of legends.jpg")
 
 # 사용자 입력
-champion_name = st.text_input("입력하시오 : )
+champion_name = st.text_input("챔피언 이름을 입력하세요:")
 
 if st.button("챔피언 정보 보기"):
     if champion_name in champions:
@@ -185,6 +185,6 @@ if st.button("챔피언 정보 보기"):
         st.write(f"역할: {champion_info['role']}")
         st.write(f"설명: {champion_info['description']}")
         st.write(f"지역: {champion_info['region']}")
-        
+       
     else:
         st.error("입력하신 챔피언이 데이터에 없습니다. 다시 시도해주세요.")
