@@ -103,13 +103,58 @@ champions = {
         "role": "원거리 딜러",
         "description": "요들 정찰병으로, 적을 함정으로 유인하는 데 능숙하다.",
         "region": "밴들 시티"
+    },
+      "요네": {
+        "role": "전사",
+        "description": "두 개의 검을 다루는 바람과 영혼의 전사.",
+        "region": "아이오니아"
+    },
+    "볼리베어": {
+        "role": "탱커",
+        "description": "천둥과 폭풍의 힘을 가진 거대한 곰.",
+        "region": "프렐요드"
+    },
+    "갱플랭크": {
+        "role": "전사",
+        "description": "바다를 지배하는 잔혹한 해적 왕.",
+        "region": "빌지워터"
+    },
+    "자크": {
+        "role": "탱커",
+        "description": "자운의 실험에서 탄생한 탄력 있는 생물.",
+        "region": "자운"
+    },
+    "피들스틱": {
+        "role": "마법사",
+        "description": "공포를 수확하는 고대의 공포.",
+        "region": "룬테라 전역"
+    },
+    "초가스": {
+        "role": "탱커",
+        "description": "끝없는 허기를 가진 공허의 괴수.",
+        "region": "공허"
+    },
+    "노틸러스": {
+        "role": "탱커",
+        "description": "심해의 비밀을 지키는 거대한 잠수부.",
+        "region": "빌지워터"
+    },
+    "탈론": {
+        "role": "암살자",
+        "description": "어둠 속에서 치명적인 칼날을 휘두르는 암살자.",
+        "region": "녹서스"
+    },
+    "사일러스": {
+        "role": "전사",
+        "description": "마법의 족쇄를 풀고 복수를 다짐한 반역자.",
+        "region": "데마시아"
     }
 }
 
 st.title("리그 오브 레전드 챔피언 소개")
 
 # 사용자 입력을 받아 챔피언 정보 표시
-champion_name = st.text_input("챔피언 이름을 입력하세요:")
+champion_name = st.text_input("챔피언 이름을 입력하세요(ex 요네):")
 
 if st.button("챔피언 정보 보기"):
     if champion_name in champions:
