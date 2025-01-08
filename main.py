@@ -9,7 +9,7 @@ def get_base64_image(file_path):
     return encoded_string
 
 # 이미지 파일 경로
-image_file_path = "league of legends.jpg"  # 로컬 이미지 파일 경로
+image_file_path = "background.jpg"  # 로컬 이미지 파일 경로
 
 # Base64로 인코딩된 이미지 가져오기
 encoded_image = get_base64_image(image_file_path)
