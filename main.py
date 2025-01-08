@@ -6,7 +6,7 @@ champions = {
         "role": "마법사",
         "description": "마법에 능숙한 매혹적인 여우.",
         "region": "아이오니아",
-        "image": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg"
+        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fnamu.wiki%2Fw%2F%25EC%2595%2584%25EB%25A6%25AC%2528%25EB%25A6%25AC%25EA%25B7%25B8%2520%25EC%2598%25A4%25EB%25B8%258C%2520%25EB%25A0%2588%25EC%25A0%2584%25EB%2593%259C%2529&psig=AOvVaw1CFrE0q9dY1U8WNVSd8fs9&ust=1736390618458000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCNiDo6GN5YoDFQAAAAAdAAAAABAE"
     },
     "야스오": {
         "role": "전사",
