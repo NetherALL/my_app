@@ -3,30 +3,30 @@ import random
 
 # 챔피언 데이터 (예시)
 champions = {
-    "Ahri": {
-        "role": "Mage",
-        "description": "A charming fox with a knack for magic.",
-        "region": "Ionia"
+    "아리": {
+        "role": "마법사",
+        "description": "마법에 능숙한 매혹적인 여우.",
+        "region": "아이오니아"
     },
-    "Yasuo": {
-        "role": "Fighter",
-        "description": "A swift swordsman with wind power.",
-        "region": "Ionia"
+    "야스오": {
+        "role": "전사",
+        "description": "바람의 힘을 사용하는 빠른 검객.",
+        "region": "아이오니아"
     },
-    "Jinx": {
-        "role": "Marksman",
-        "description": "A crazed criminal with a love for chaos.",
-        "region": "Zaun"
+    "징크스": {
+        "role": "원거리 딜러",
+        "description": "혼돈을 사랑하는 미친 범죄자.",
+        "region": "자운"
     },
-    "Thresh": {
-        "role": "Support",
-        "description": "A spectral warden who traps souls.",
-        "region": "Shadow Isles"
+    "쓰레쉬": {
+        "role": "서포터",
+        "description": "영혼을 가두는 유령 간수.",
+        "region": "그림자 군도"
     },
-    "Garen": {
-        "role": "Tank",
-        "description": "A noble warrior with unbreakable resolve.",
-        "region": "Demacia"
+    "가렌": {
+        "role": "탱커",
+        "description": "불굴의 결의를 가진 고귀한 전사.",
+        "region": "데마시아"
     }
 }
 
@@ -41,5 +41,3 @@ if st.button("챔피언 소개하기"):
     st.write(f"역할: {champion_info['role']}")
     st.write(f"설명: {champion_info['description']}")
     st.write(f"지역: {champion_info['region']}")
-
-st.write("리그 오브 레전드에 대한 더 많은 정보를 원하시면 [여기](https://www.leagueoflegends.com)를 방문하세요.")
